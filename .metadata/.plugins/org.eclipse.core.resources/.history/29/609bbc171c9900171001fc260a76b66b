@@ -1,0 +1,48 @@
+InputDatafile=C:/Pivot_Portal/Test Data/ArchiveReprintBeta.xls
+HelloUserName=div[class='menu1'] div span[id='ctl00_ctl00_lblUserName']
+newPivotlnk=a[id='ctl00_hlEnterprise']
+newPivotlnk2=a[id='ctl00_ctl00_hlEnterprise']
+prevPivotlnk=a[id='hlEnterprise']
+Canbtn=Canbtn=div[class='buttons-container btns'] button[id='modal-client-app-selection-btn-cancel']
+Okbtn=div[class='buttons-container btns'] button[id='modal-client-app-selection-btn-ok']
+selClint=span[class='k-dropdown-wrap k-state-default'] span[class='k-input']
+Clientlnk=ul[id='lstClientId_listbox'] li+li[role='option']
+Clientlnk1=ul[class='k-list k-reset'] li+li+li[role='option']
+Applicationlnk=span[class='k-dropdown-wrap k-state-default'] span[class='k-input']
+Archives=li[optionid='11'] a[class='k-link']
+AdvanSrchBtn=div[id='SearchDiv'] div button[id='Comparasion-Button']
+Alldts=label[for='archive-all-dates']
+Archivesearchmodule=div[class='left section-btns'] ul li span button[optionid='12']
+Fieldbutton=div[id='adv-search-filter-section'] div span span span
+FldOptSel=div[class='k-animation-container km-popup'] div ul li[class='k-item']
+Operatorbutton=div[id='adv-search-filter-section'] div span+span span span
+FldOptScroll=div ul[id='adv-search-generic-fields-dropdown_listbox'] li
+OpertOptScroll=div ul[id='adv-search-operators-dropdown_listbox'] li
+Txtfld=div[class='input-container'] div div input[type='text']
+Txtfld1=.//*[@id='adv-search-text-dropdown']
+SrchBtn=button[class='k-button']
+SelFieltOpt=ul[id='adv-search-generic-fields-dropdown_listbox'] li[class='k-item']
+SelOpertOpt=div[id='adv-search-operators-dropdown-list'] div ul[id='adv-search-operators-dropdown_listbox'] li[role='option']
+Chooseactn=div[id='archive-search-grid'] table tbody tr td+td+td+td+td+td+td+td+td+td+td+td+td+td+td+td div span span 
+span[class='k-input']
+Reprint=div[class='k-animation-container'] div ul li+li[class='k-item']
+ClearbtnAdsrch=button[class='k-button modal-archive-clear-btn']
+FromDate=span[class='k-widget k-datepicker k-header datepicker adv-search-dates'] span input[id='datepicker-archive-start']
+ToDate=span[class='k-widget k-datepicker k-header datepicker adv-search-dates'] span input[id='datepicker-archive-end']
+MailingAddFstlne=input[id='modal-archive-archive-reprint-em1']
+MailingAddSndlne=input[id='modal-archive-archive-reprint-em2']
+MailingAddTrdlne=input[id='modal-archive-archive-reprint-em3']
+MailingAddFurlne=input[id='modal-archive-archive-reprint-em4']
+Domesticradbtn=div label[for='modal-archive-archive-reprint-domestic']
+ReprintReason=div[id='modal-archive-archive-reprint'] div table tbody tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr+tr td+td span span span[class='k-input']
+ChangeAdd=div[class='k-animation-container km-popup'] div ul li+li[class='k-item']
+LostOriginal=div[class='k-animation-container'] div ul li+li[class='k-item']
+Save=button[id='modal-archive-archive-reprint-btn-save']
+AlertOk=button[id='modal-alert-ok']
+ReprintQue=div[class='k-animation-container km-popup'] div ul li+li[class='k-item']
+MultipleCheckboxfst=div[id='archive-search-grid'] table tbody tr+tr+tr+tr td+td+td+td+td+td+td+td+td+td+td+td+td+td+td+td div label
+MultipleCheckboxsnd=div[id='archive-search-grid'] table tbody tr+tr+tr+tr+tr td+td+td+td+td+td+td+td+td+td+td+td+td+td+td+td div label
+MultipleReprintbtn=div[id='archive-search-action-btns'] button[class='k-button apply-all modal-archive-archive-reprint-bulk']
+Firstconsumer=div[id='archive-search-grid'] table tbody tr+tr+tr+tr td+td+td
+Secondconsumer=div[id='archive-search-grid'] table tbody tr+tr+tr+tr+tr td+td+td
+

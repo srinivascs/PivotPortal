@@ -1,0 +1,54 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigurationData xmlns="http://tempuri.org/ConfigurationData.xsd">
+  <Configuration>
+    <Recipient>https://sso.testpivot.rrd.com/sp/ACS.saml2</Recipient>
+    <Target>https://sso.testpivot.rrd.com</Target>
+    <Subject>QATest@rrd.com</Subject>
+    <CertFileLocation>Z:\Temp\SAML Test Harness\Pivot QA SAML Signing Cert.p12</CertFileLocation>
+    <CertPassword>Q@4P1v0t</CertPassword>
+    <CertStoreName />
+    <CertStoreLocation />
+    <CertFindKey />
+    <CertFriendlyName>CN=Pivot QA SAML Signing Cert,OU=Pivot,O=RR Donnelley &amp; Sons\, Inc.,L=Logan,ST=UT,C=US</CertFriendlyName>
+    <CertFindMethod />
+    <Issuer>ssotestharness.testpivot.rrd.com:idp</Issuer>
+    <Domain>sso.testpivot.rrd.com</Domain>
+    <Version>2.0</Version>
+  </Configuration>
+  <Attributes>
+    <Name>client_id</Name>
+    <Value>50301</Value>
+  </Attributes>
+  <Attributes>
+    <Name>consumer_id</Name>
+    <Value>123456789</Value>
+  </Attributes>
+  <Attributes>
+    <Name>doc_type</Name>
+    <Value>ABC1234</Value>
+  </Attributes>
+  <Attributes>
+    <Name>mode</Name>
+    <Value>HTML</Value>
+  </Attributes>
+  <Attributes>
+    <Name>user_id</Name>
+    <Value>JohnDoe</Value>
+  </Attributes>
+  <Attributes>
+    <Name>req_type</Name>
+    <Value>eArchive</Value>
+  </Attributes>
+  <Attributes>
+    <Name>applicationId</Name>
+    <Value>ABC1234</Value>
+  </Attributes>
+  <Attributes>
+    <Name>start_date</Name>
+    <Value>1/1/2014</Value>
+  </Attributes>
+  <Attributes>
+    <Name>end_date</Name>
+    <Value>3/31/2014</Value>
+  </Attributes>
+</ConfigurationData>

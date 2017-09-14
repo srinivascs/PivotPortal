@@ -1,0 +1,23 @@
+IsPDfEnable=tr[id='ctl00_ctl00_ContentPlaceHolder1_ContentPlaceHolder1_ctlServices_ctlSrvM_frmMain_trConcat'] td+td
+
+checkbox1=div[class='grid-buttons'] label[for='as-chk-1']
+checkbox2=div[class='grid-buttons'] label[for='as-chk-2']
+combinepdfbuton=button[class='k-button apply-all archive-archive-combine-to-pdf']
+Simplesearchtextbox=span input[name='archive-search-textbox']
+
+iconsearch=span i[class='icon-search']
+EditOkBtn1=.//*[@id='modal-alert-ok']
+
+sucessokbtn=.//*[@id='modal-alert-ok']
+
+
+#CombineDocmntsTab=div[class='section-btns'] ul li+li button[optionid='14']
+CombineDocmntsTab=div[id='tabStrip-6'] div div div ul li+li span button[optionid='14']
+
+LatestDocmnt=div[id='archive-sections-document'] div table tbody tr td+td+td+td
+
+Status=div[id='archive-sections-document'] div table tbody tr td+td
+
+docmtSucessMsg=div[id='modal-alert-msg']
+
+

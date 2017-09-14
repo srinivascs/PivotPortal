@@ -1,0 +1,62 @@
+<?xml version="1.0" standalone="yes"?>
+<ConfigurationData xmlns="http://tempuri.org/ConfigurationData.xsd">
+  <Configuration>
+    <Recipient>https://sso.stagepivot.rrd.com/sp/ACS.saml2</Recipient>
+    <Target>https://sso.stagepivot.rrd.com</Target>
+    <Subject>samlqa</Subject>
+    <CertFileLocation>C:\Pivot_Portal\SAML_Auto\Pivot QA SAML Signing Cert.p12</CertFileLocation>
+    <CertPassword>Q@4P1v0t</CertPassword>
+    <CertStoreName />
+    <CertStoreLocation />
+    <CertFindKey />
+    <CertFriendlyName>CN=Pivot QA SAML Signing Cert,OU=Pivot,O=RR Donnelley &amp; Sons\, Inc.,L=Logan,ST=UT,C=US</CertFriendlyName>
+    <CertFindMethod />
+    <Issuer>ssopivotportal.stagepivot.rrd.com:idp</Issuer>
+    <Domain>sso.stagepivot.rrd.com</Domain>
+    <Version>2.0</Version>
+  </Configuration>
+  <Attributes>
+    <Name>authStatus</Name>
+    <Value>active</Value>
+  </Attributes>
+  <Attributes>
+    <Name>emailAddress1</Name>
+    <Value>george.washburn@rrd.com</Value>
+  </Attributes>
+  <Attributes>
+    <Name>firstName</Name>
+    <Value>George</Value>
+  </Attributes>
+  <Attributes>
+    <Name>lastName</Name>
+    <Value>Washburn</Value>
+  </Attributes>
+  <Attributes>
+    <Name>locale</Name>
+    <Value>en-US</Value>
+  </Attributes>
+  <Attributes>
+    <Name>pivotClientId</Name>
+    <Value>50301</Value>
+  </Attributes>
+  <Attributes>
+    <Name>pivotApplicationId</Name>
+    <Value>ABC1234</Value>
+  </Attributes>
+  <Attributes>
+    <Name>telephone1</Name>
+    <Value>1.435.555.5512</Value>
+  </Attributes>
+  <Attributes>
+    <Name>timeZoneIndex</Name>
+    <Value>10</Value>
+  </Attributes>
+  <Attributes>
+    <Name>userGroup1</Name>
+    <Value>ABC-Users</Value>
+  </Attributes>
+  <Attributes>
+    <Name>pivotClientName</Name>
+    <Value>ABC Company</Value>
+  </Attributes>
+</ConfigurationData>

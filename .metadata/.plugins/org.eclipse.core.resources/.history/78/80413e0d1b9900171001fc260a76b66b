@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://beust.com/testng/testng-1.0.dtd" >
+<suite name="PIVOTAutomation" > 
+  <test name="PIVOT Portal Automation Suite"> 
+  
+	<parameter name="Browser" value="IE"/> 
+    <!--  Add all classes you would like TestNG to run. -->
+    
+    	<classes>
+    		<class name="launchAuto.PORTALSuite" />               
+    	</classes>
+     </test> 
+      
+</suite>

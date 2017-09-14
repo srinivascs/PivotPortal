@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><PAAutomation>
+	
+	<Client env="Prod">
+		<UserID>Manohar</UserID>		
+		<Passwd>Spring*5</Passwd>		
+		<Browser>Chrome</Browser>				
+		<Status>NotCompleted</Status>
+		<ExeMultipleUser>No</ExeMultipleUser>
+		<eDelivery>Yes</eDelivery>		
+		<FileUploads>No</FileUploads>
+		<EmailIds>vinod.patil@rrd.com,srinivas.chamalapura@rrd.com</EmailIds> 
+	</Client>
+	
+	 <Client env="DR">
+		<UserID>Manohar</UserID>		
+		<Passwd>Spring*5</Passwd>		
+		<Browser>Chrome</Browser>				
+		<Status>Completed</Status>
+		<ExeMultipleUser>No</ExeMultipleUser>
+		<eDelivery>Yes</eDelivery>		
+		<FileUploads>Yes</FileUploads>
+		<EmailIds>srinivas.chamalapura@rrd.com,vinod.patil@rrd.com,dushyanth.x.nippani@rrd.com,john.larkin@rrd.com,marcela.x.fernandez@rrd.com,stefaan.colson@rrd.com</EmailIds>
+	</Client>
+	
+	<Client env="Prod">
+		<UserID>Manohar</UserID>		
+		<Passwd>Spring*5</Passwd>		
+		<Browser>FF</Browser>				
+		<Status>Completed</Status>
+		<ExeMultipleUser>No</ExeMultipleUser>
+		<eDelivery>Yes</eDelivery>		
+		<FileUploads>Yes</FileUploads>
+		<EmailIds>vinod.patil@rrd.com,srinivas.chamalapura@rrd.com,latha.sannaiah@rrd.com,dushyanth.x.nippani@rrd.com,john.larkin@rrd.com,marcela.x.fernandez@rrd.com,dayana.acuna@rrd.com,stefaan.colson@rrd.com</EmailIds>
+	</Client> 
+	
+</PAAutomation>

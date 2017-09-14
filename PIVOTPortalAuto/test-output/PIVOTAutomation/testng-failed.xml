@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PIVOTAutomation]">
+  <parameter name="Browser" value="IE"/>
+  <test name="PIVOT Portal Automation Suite(failed)">
+    <parameter name="Browser" value="IE"/>
+    <classes>
+      <class name="launchAuto.PORTALSuite">
+        <methods>
+          <include name="Test20_Verify_theConcatenationBeta_CombinedDocuments_inArchives"/>
+          <include name="ControlTest"/>
+          <include name="Test56_Verify_the_HTML5_documents_archivalProcess"/>
+          <include name="closeBrowser"/>
+          <include name="Test52_Verify_the_various_waysto_Access_Template_Management_Tool"/>
+          <include name="Test51_Verify_the_Promote_Edit_XMLSchema_Permissions_Of_Email_Type_of_Template_Management"/>
+          <include name="Screenshot"/>
+          <include name="Test64_Verify_eDelivery_Acknowledge_Feature_of_Archives"/>
+          <include name="Test17_Verify_the_Audit_Keys_Segments_And_AuditRules_Functionality"/>
+          <include name="Test19_Verify_theAdvancedSearch_in_Archives"/>
+          <include name="Test18_Verify_theSimpleSearch_in_Archives"/>
+          <include name="Test61_Verify_Campaign_Manager_Email_Verification_for_Plain_and_Variable_Text_Template"/>
+          <include name="Initialize"/>
+          <include name="Test57_Verifying_creation_of_New_Campaign_Manager"/>
+          <include name="Test62_Verify_Client_Name_and_Application_Name_remains_same_across_the_searches_in_Jobtracking"/>
+          <include name="LaunchBrowser"/>
+          <include name="Test65_Verify_Test_Login_Feature_Using_Different_Users"/>
+          <include name="Test25_Verify_ReprintSettings_inArchives"/>
+          <include name="Test55_Verify_the_PivotSAML__tests"/>
+          <include name="Test63_Verify_Favorite_Feature_of_the_Portal"/>
+          <include name="Test46_Verify_publicDocuments_Uploade_via_FTP"/>
+          <include name="Test59_Verify_Campaign_Manager_AdvanceSearch"/>
+          <include name="Test12_Verify_thebulkActions_and_proofEnhancements"/>
+          <include name="Test53_Verify_the_eDelivery_Field_validation_of_the_TemplateManagement"/>
+          <include name="Test45_Verify_3_7_Public_Documents"/>
+          <include name="UpdateConfig"/>
+          <include name="Test49_Verify_the_Text_Email_Type_of_Template_Management"/>
+          <include name="Test54_Verify_the_XML__Schema_of_the_TemplateManagement"/>
+          <include name="Test47_Verify_3_7_SSO_Consent"/>
+          <include name="Test58_Verify_SSO_User_Login_and_Password_reset_Functionality"/>
+          <include name="Test50_Verify_the_HTML_Email_Type_of_Template_Management"/>
+          <include name="Test60_Verify_Campaign_Manager_ManageRecipient"/>
+        </methods>
+      </class> <!-- launchAuto.PORTALSuite -->
+    </classes>
+  </test> <!-- PIVOT Portal Automation Suite(failed) -->
+</suite> <!-- Failed suite [PIVOTAutomation] -->

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="launchAuto.Initialization">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="closeBrowser"/>
+          <include name="UpdateConfig"/>
+          <include name="Initialize"/>
+        </methods>
+      </class> <!-- launchAuto.Initialization -->
+      <class name="launchAuto.PORTALSuite">
+        <methods>
+          <include name="Test32_Verification_ofthe_ProductionbyOrderDetail_Report_ofReportWriter"/>
+          <include name="ControlTest"/>
+          <include name="Test74_Archive_ConsentUsers_Search_History_request"/>
+          <include name="Test28_Verify_Postal_Frieght_Application_Under_Reports"/>
+          <include name="Test56_Verify_the_HTML5_documents_archivalProcess"/>
+          <include name="Test27_Verify_InfoShare_Tracking_Under_Reports"/>
+          <include name="Test34_Verification_ofthe_DPR_Report_ofReportWriter"/>
+          <include name="Test38_Verification_of_various_search_operation_proof_testing"/>
+          <include name="Test41_Verify_the_Saved_Search_Functionality_Of_JobTracking"/>
+          <include name="Test35_Verification_Recon_Email_Update_Report"/>
+          <include name="Screenshot"/>
+          <include name="Test64_Verify_eDelivery_Acknowledge_Feature_of_Archives"/>
+          <include name="Test05_Verify_Uploading_IllegalFile_And_Upload_information_validation_inReportViewer"/>
+          <include name="Test17_Verify_the_Audit_Keys_Segments_And_AuditRules_Functionality"/>
+          <include name="Test40_Verify_the_Quick_Search_Functionality_Of_JobTracking"/>
+          <include name="Test18_Verify_theSimpleSearch_in_Archives"/>
+          <include name="Test22_Verify_MessageCenter_inArchives"/>
+          <include name="Test81_Verify_SSOscript_XMLRenamed_From_aspx_AfterClicking_on_Submit_withLatest_DateAndTime"/>
+          <include name="Test44_Verify_the_Pulls_Management"/>
+          <include name="Test77_Audits_WorkFlow_Functionality"/>
+          <include name="Test39_Verification_of_EnvelopePackage_Search_in_JobTracking"/>
+          <include name="Test21_Verify_FileManagementbeta_inArchives"/>
+          <include name="Test62_Verify_Client_Name_and_Application_Name_remains_same_across_the_searches_in_Jobtracking"/>
+          <include name="Test36_Verification_ofthe_My_Report_Section_ofReportWriter"/>
+          <include name="Test16_Verify_theChange_in_status_of_audits"/>
+          <include name="Test46_Verify_publicDocuments_Uploade_via_FTP"/>
+          <include name="Test29_Verify_Client_User_Access_Services_Under_Reports"/>
+          <include name="Test53_Verify_the_eDelivery_Field_validation_of_the_TemplateManagement"/>
+          <include name="Test23_Verify_ManageUserConsent_inArchives"/>
+          <include name="Test49_Verify_the_Text_Email_Type_of_Template_Management"/>
+          <include name="Test58_Verify_SSO_User_Login_and_Password_reset_Functionality"/>
+          <include name="Test47_Verify_3_7_SSO_Consent"/>
+          <include name="Test13_Verify_TheAudit_Search_based_on_various_Search_methods"/>
+          <include name="Test26_Verify_theVarious_SearchDocuments_methods_ineDeliveryApplication"/>
+          <include name="Test60_Verify_Campaign_Manager_ManageRecipient"/>
+          <include name="Test24_Verify_EmailSettingsBeta_forArchives"/>
+          <include name="Test09_Verify_ViewProofs_Functionality_basedon_Various_SearchMethods"/>
+          <include name="Test20_Verify_theConcatenationBeta_CombinedDocuments_inArchives"/>
+          <include name="Test75_Proofs_WorkFlow_Functionality"/>
+          <include name="Test82_Verify_SSOscript_PDFfileOpened_whenClicking_onViewPDFLink_AfterClicking_on_Submit_withLatest_DateAndTime"/>
+          <include name="Test11_Verify_Change_in_proofStatus_to_Approve_and_Reject_with_commentsOrupload"/>
+          <include name="Test52_Verify_the_various_waysto_Access_Template_Management_Tool"/>
+          <include name="Test76_Modules_Workflow_Functionality_Under_HAAdmin"/>
+          <include name="Test72_Verify_Systmhealth_functionalities_NewHA_Admin"/>
+          <include name="Test10_Verify_ProofEdit_ProofDelete_NegativeCases_of_AdvancedSearch_Functionality"/>
+          <include name="Test31_Verify_Postage_Freight_Plant_Under_Reports"/>
+          <include name="Test51_Verify_the_Promote_Edit_XMLSchema_Permissions_Of_Email_Type_of_Template_Management"/>
+          <include name="Test48_Verify_3_7_RegistrationAnd_ConsentPassword_Reset"/>
+          <include name="Test70_Verify_webtemplates_functionality"/>
+          <include name="Test37_Proof_Of_Review_Of_ReportWriter"/>
+          <include name="Test03_Verify_ReportViewer_Functionality_basedon_Various_SearchMethods"/>
+          <include name="Test19_Verify_theAdvancedSearch_in_Archives"/>
+          <include name="Test06_Verify_Uploading_A_ValidFile_inProofing"/>
+          <include name="Test04_Verify_NegativeCases_of_AdvancedSearch_Functionality_inReportViewer"/>
+          <include name="Test61_Verify_Campaign_Manager_Email_Verification_for_Plain_and_Variable_Text_Template"/>
+          <include name="Test33_Verification_ofthe_InsertingOrder_Report_ofReportWriter"/>
+          <include name="Test68_Verify_DirecttoDocument_Functionality"/>
+          <include name="Test07_Verify_Uploading_Multiple_ValidFiles_inProofing"/>
+          <include name="Test57_Verifying_creation_of_New_Campaign_Manager"/>
+          <include name="Test71_Verify_Emailtype_activity_and_Compare_emailtype_list_functionality"/>
+          <include name="Test65_Verify_Test_Login_Feature_Using_Different_Users"/>
+          <include name="Test73_Verify_Proofs_Compareproofs"/>
+          <include name="Test15_Verify_view_audits_withComments_and_Validating_theSame"/>
+          <include name="Test25_Verify_ReprintSettings_inArchives"/>
+          <include name="Test80_Verify_SSOscript_PDFfileOpened_whenClicking_on_Submit_withLatest_DateAndTime"/>
+          <include name="Test63_Verify_Favorite_Feature_of_the_Portal"/>
+          <include name="Test55_Verify_the_PivotSAML__tests"/>
+          <include name="Test08_Verify_Uploading_IllegalFile_And_Upload_information_validation_inProofing"/>
+          <include name="Test59_Verify_Campaign_Manager_AdvanceSearch"/>
+          <include name="Test66_Manageuser_SimpleSearch_NewModule"/>
+          <include name="Test12_Verify_thebulkActions_and_proofEnhancements"/>
+          <include name="Test02_Verify_Uploading_Multiple_ValidFiles_inReportViewer"/>
+          <include name="Test45_Verify_3_7_Public_Documents"/>
+          <include name="Test30_Verify_Production_By_Order_Summary_Under_Reports"/>
+          <include name="Test54_Verify_the_XML__Schema_of_the_TemplateManagement"/>
+          <include name="Test69_Verify_Servicetypes_pivotCFLAdmin_Functionality"/>
+          <include name="Test14_Verify_TheNegativeCases_of_AdvancedSearch_in_auditPage"/>
+          <include name="Test50_Verify_the_HTML_Email_Type_of_Template_Management"/>
+          <include name="Test42_Verify_the_Order_Search_Functionality_Of_JobTracking"/>
+          <include name="Test01_Verify_Uploading_A_ValidFile_inReportViewer"/>
+          <include name="Test43_Verify_the_Recent_Activity_Functionality_Of_JobTracking"/>
+        </methods>
+      </class> <!-- launchAuto.PORTALSuite -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

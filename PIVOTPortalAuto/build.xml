@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project []>
+
+<project name="PIVOT Automation" default="usage" basedir=".">
+<!-- ========== Initialize Properties =================================== -->
+	<property environment="env"/>    
+    <property name="ws.home" value="${basedir}"/>
+    <property name="ws.jars" value="C:\Pivot_Portal\Selenium jars"/>
+    <property name="test.dest" value="${ws.home}/build"/>
+    <property name="test.src" value="${ws.home}/src"/>
+    <property name="ng.result" value="test-output"/>
+    
+    <!--target name="start-selenium-server">
+        <java jar="${ws.home}/lib/selenium-server.jar"/>
+    </target-->
+
+    <target name="setClassPath" unless="test.classpath">
+    	<path id="classpath_jars">
+    		<fileset dir="${ws.jars}" includes="*.jar"/>
+         </path>
+        <pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+    </target>
+
+    <target name="init" depends="setClassPath">
+    	<taskdef resource="testngtasks" classpath="${ws.jars}/testng-5.12.1.jar" />
+         <tstamp>
+            <format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+        </tstamp>
+        <condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+                    <os family="windows" />
+        </condition>
+        <taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />    
+    </target>
+	
+    <!-- all -->
+    <target name="all">
+    </target>
+
+    <!-- clean -->
+     <target name="clean">
+        <delete dir="${test.dest}"/>
+    </target>
+
+     <!-- compile -->
+        <target name="compile" depends="init, clean" > 
+            <delete includeemptydirs="true" quiet="true">
+                <fileset dir="${test.dest}" includes="**/*"/>
+            </delete>
+            <echo message="making directory..."/>
+             <mkdir dir="${test.dest}"/>
+            <echo message="classpath------: ${test.classpath}"/>
+            <echo message="compiling..."/>
+            <javac 
+                debug="true" 
+                destdir="${test.dest}" 
+                srcdir="${test.src}" 
+                target="1.7" 
+                classpath="${test.classpath}"
+            	fork = "yes"
+             >
+            	
+            </javac>
+             <copy todir="${test.dest}">
+                        <fileset dir="${test.src}" excludes="**/*.java"/>
+             	
+              </copy>
+           </target>
+
+
+    <!-- build -->
+    <target name="build" depends="init">
+    </target>
+
+    <!-- run -->
+    <target name="run" depends="compile">
+        <testng classpath="${test.classpath}:${test.dest}" suitename="PIVOTAutomation">
+        <jvmarg value="-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=54321" /> 
+            <xmlfileset dir="${ws.home}" includes="testng.xml"/>         	
+         </testng>
+        <!--testng classpath="${test.classpath}:${test.dest}" groups="fast">
+            <classfileset dir="${test.dest}" includes="example1/*.class"/>
+         </testng-->
+    </target>   
+
+    <target name="usage">
+        <echo>
+            ant run will execute the test
+        </echo>
+     </target>   
+
+    <path id="test.c">
+            <fileset dir="${ws.jars}" includes="*.jar"/>
+    </path> <!-- ****************** targets not used ****************** -->
+</project>
